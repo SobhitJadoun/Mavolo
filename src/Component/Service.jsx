@@ -25,9 +25,9 @@ export default function Service() {
           <div className="col-12 col-sm-7 col-md-7 card2">
          <div className="img2">
           <img className="img-fluid" src={Up2} alt=""/>
-          <span>></span>
+          {/* <span>></span> */}
           <img className="img-fluid" src={Up3} alt="" />
-          <span>></span>
+          {/* <span>></span> */}
           <img className="img-fluid" src={UP1} alt="" />
          </div>
          <div className="row mt-3">
