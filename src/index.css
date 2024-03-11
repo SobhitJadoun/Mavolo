@@ -40,12 +40,11 @@ ul li{
     font-weight: 900;
 }
 .hero button{
-    margin: 1em 0em 0em 3em;
+    margin: 1em 0em 0em 4em;
     font-size: 1.2rem;
     border-color: var(--secondary);
     border-radius: 8px;
     padding: 5px;
-    border-style: none;
     width: 10rem;
     background-color: var(--secondary);
 }
@@ -226,7 +225,7 @@ ul li{
     font-weight: 700;
 }
 .form input{
-    width: 41%;
+    width: 40%;
     background-color: var(--background)!important;
     margin: 10px 20px;
     border-radius: 5px;
@@ -270,7 +269,7 @@ ul li{
 /* ==========Footer========== */
 .footer{
     margin-top: 8vh;
-    box-shadow: 5px 0px 10px 10px rgb(210, 211, 210);
+    background-color: antiquewhite;
     padding: 0px 70px;
     color: var(--primary);
 }
@@ -282,20 +281,11 @@ ul li{
  display: flex;
  float: right;
 }
-.footer  i{
-    margin: 5px 10px;
+.footer .icon i{
+    margin: 0px 10px;
     font-size: 1.2rem;
     color: var(--primary);
 }
 .footer .add {
-    width: 19rem;
-}
-.footer  .right{
-    display: flex;
-    float: right;
-    width: 15rem;
-}
-.footer .add .right span{
-    padding: 0px 10px;
-    
+    width: 32rem;
 }
