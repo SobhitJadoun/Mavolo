@@ -1,0 +1,301 @@
+:root {
+    --primary: rgba(68, 181, 141, 1);
+    --secondary: rgb(55, 189, 142);
+    --white: #faf0e6;
+    --background:rgba(203, 255, 237, 1);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+a{
+    text-decoration: none!important;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 8px 30px rgb(218, 215, 215);
+}
+.navbar .active{
+    background-color: rgba(203, 255, 237, 1);
+    border-radius: 6px;
+}
+.navbar img{
+    width: 12rem;
+}
+ul li{
+    padding: 0px 8px;
+    font-weight: 500;
+}
+.hero h2{
+    color: rgba(68, 181, 141, 1);
+    text-align: left;
+    font-size: 3.5rem;
+    margin: 2.2em 1.8em 0em 1em;
+    font-weight: 200;
+}
+.hero span{
+    font-weight: 900;
+}
+.hero button{
+    margin: 1em 0em 0em 3em;
+    font-size: 1.2rem;
+    border-color: var(--secondary);
+    border-radius: 8px;
+    padding: 5px;
+    border-style: none;
+    width: 10rem;
+    background-color: var(--secondary);
+}
+.hero button a{
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 400;
+}
+.hero .right img{
+    width: 90vh;
+    height: 95%;
+    overflow: hidden;
+}
+.card{
+    padding: 30px ;
+    border-color: var(--primary);
+    border-radius: 20px;
+    background-color: var(--background);
+    height: 12em;
+    width: 90%;
+  margin-left: 20px;
+    
+}
+.card .top{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    color: var(--primary);
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 5px rgb(219, 219, 219);
+    margin: -50px 0px 0px 70px;
+}
+.card .main{
+    height: 6.2em;
+}
+.about{
+    background-color: var(--background);
+}
+.card button{
+    background-color: var(--primary);
+    width: 50%;
+    height: 40px;
+    margin: 1em 0em 0em 4em;
+    border-radius:10px ;
+    border-color: var(--primary);
+    border-style: none;
+}
+.card button a{
+    color: rgb(255, 255, 255);
+}
+.service .card1, .card2{
+    border: 2px solid var(--secondary);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.service .img1, .img2{
+    background-color: var(--secondary);
+    border-radius: 10px;
+    text-align: center;
+}
+.service .img1 img{
+    width: 60%;
+    overflow: hidden;
+    
+}
+.service .img2 img{
+    width: 30%;
+    height: auto    ;
+}
+.service .img2 span{
+    color: white;
+    font-size:1.2rem ;}
+/* ==============Product=========== */
+
+.product{
+    background-color: var(--background);   
+    height: 70vh;
+    margin-bottom: 20vh;
+}
+.product .main{
+   margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.product .left{ 
+   margin: 5vh 10px;
+    background-color: var(--primary);
+    border-radius: 15px;
+    display: flex;
+    height: 30vh;
+}
+.product .left .content{
+    width: 80%;
+}
+.product .left .img{
+    width: 20%;
+}
+.product img{
+    height: 50vh;
+    margin:-15vh 0vh 0vh -8vh;
+}
+.product span{
+    color: var(--primary);
+    padding: 3px;
+    border-radius: 5px;
+}
+.product button{
+    margin-top: 5vh;
+    border-radius: 5px;
+    padding: 3px;
+    width: 7em;
+    border-style: none;
+   box-shadow: 0px 5px 15px 1px grey;
+}
+.product button a{
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+
+.mainContainer {
+    margin: auto;
+    width: 80%; /* Adjust width as needed */
+  }
+  
+  .mainContainer .sliderContainer img{
+    width: 70%;
+    height: 80px;
+  }
+  /* Additional styles for slick carousel */
+  .slick-slide {
+    padding: 0 5px; /* Adjust slide padding as needed */
+  }
+  
+
+/* ################Core Values################ */
+.core{
+    background-color: var(--background);
+}
+.core .main{
+    background-color: white;
+    border-radius: 15px;
+    padding: 0px 10px 20px 10px;
+    margin: 20px 30px;
+}
+.core .main .title{
+    background-color: var(--primary);
+    width: 10em;
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   margin: 0 auto;
+   border-radius: 0px 0px 10px 10px;
+}
+.core .main .title2{
+    background-color: var(--primary);
+    width: 18em;
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   margin: 0 auto;
+   border-radius: 0px 0px 10px 10px;
+}
+/* ============Form css============== */
+.form{
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px 0px gray;
+    margin-top: 10vh;
+    padding-bottom: 3vh;
+}
+.form p{
+    padding: 15px;
+    color: var(--primary);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.form input{
+    width: 41%;
+    background-color: var(--background)!important;
+    margin: 10px 20px;
+    border-radius: 5px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-style: none;
+}
+.form textarea{
+    background-color: var(--background);
+    margin: 10px 20px;
+    width: 90%;
+    height: 15vh;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+}
+.form button{
+    margin: 0px 0px 0px 18px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 5px;
+    width: 8rem;
+    border-style: none;
+    background-color: var(--secondary);
+}
+.form button a{
+    
+    text-decoration: none;
+    font-weight: 400;
+}
+.form .img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0vh 2vh 2vh 0vh;
+}
+.form img{
+    width: 100%;   
+}
+/* ==========Footer========== */
+.footer{
+    margin-top: 8vh;
+    box-shadow: 5px 0px 10px 10px rgb(210, 211, 210);
+    padding: 0px 70px;
+    color: var(--primary);
+}
+.footer img{
+    width: 12rem;
+    padding: 20px;
+}
+.footer .icon{
+ display: flex;
+ float: right;
+}
+.footer  i{
+    margin: 5px 10px;
+    font-size: 1.2rem;
+    color: var(--primary);
+}
+.footer .add {
+    width: 19rem;
+}
+.footer  .right{
+    display: flex;
+    float: right;
+    width: 15rem;
+}
+.footer .add .right span{
+    padding: 0px 10px;
+    
+}
