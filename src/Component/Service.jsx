@@ -1,4 +1,4 @@
-import Group from "../assets/group-1.svg";
+// import Group from "../assets/group-1.svg";
 import UP1 from "../assets/UP1.png";
 import Up2 from "../assets/Up2.png";
 import Up3 from "../assets/Up3.png";
